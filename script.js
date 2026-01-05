@@ -9,7 +9,7 @@ botao.onclick = () => {
 
  if ((loginInserido === "Polites" && senhaInserida === "sixseven") ||
      (loginInserido === "Bianca" && senhaInserida === "7512") || 
-     (loginInserido === "Hermes" && senhaInserida === "Mystical) ||
+     (loginInserido === "Hermes" && senhaInserida === "Mystical") ||
      (loginInserido === "Medusa" && senhaInserida === "Cacetinho alemães") ||
      (loginInserido === "Aeolus" && senhaInserida === "12345sixseven89") ||
      (loginInserido === "Ártemis" && senhaInserida === "senhaforte") ||
@@ -36,6 +36,7 @@ botao.onclick = () => {
 }
 
 };
+
 
 
 

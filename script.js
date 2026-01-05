@@ -17,7 +17,8 @@ botao.onclick = () => {
      (loginInserido === "Leo" && senhaInserida === "leovaldezreidelas123") ||
      (loginInserido === "Tiresias" && senhaInserida === "bobão2346")
      (loginInserido === "Thalia" && senhaInserida === "910787") ||
-     (loginInserido === "Clarisse" && senhaInserida === "123cu123")) {
+     (loginInserido === "Clarisse" && senhaInserida === "123cu123") ||
+     (loginInserido === "Dionísio" && senhaInserida === "03032011")) {
 
  db.ref("usuarios/" + loginInserido).get().then(snap => {
   if (!snap.exists()) {
@@ -38,6 +39,7 @@ botao.onclick = () => {
 }
 
 };
+
 
 
 

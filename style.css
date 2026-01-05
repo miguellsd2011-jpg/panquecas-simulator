@@ -1,19 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
-.título {
+.titulo {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 15px;       
+  gap: 15px;
 }
 
-.título img {
-  width: 80px;            
-  height: auto;
+.titulo img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 80px;
   font-family: "Poppins";
   padding: 3px 10px;
   background-color: #9fc7ff;

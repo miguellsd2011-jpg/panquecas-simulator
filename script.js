@@ -7,7 +7,14 @@ botao.onclick = () => {
   const loginInserido = logIn.value.trim();
   const senhaInserida = senh4.value.trim();
 
- if ((loginInserido === "Polites" && senhaInserida === "1234") || (loginInserido === "Bianca" && senhaInserida === "7512") || (loginInserido === "Hermes" && senhaInserida === "Mystical)) {
+ if ((loginInserido === "Polites" && senhaInserida === "sixseven") ||
+     (loginInserido === "Bianca" && senhaInserida === "7512") || 
+     (loginInserido === "Hermes" && senhaInserida === "Mystical) ||
+     (loginInserido === "Medusa" && senhaInserida === "Cacetinho alemães") ||
+     (loginInserido === "Aeolus" && senhaInserida === "12345sixseven89") ||
+     (loginInserido === "Ártemis" && senhaInserida === "senhaforte") ||
+     (loginInserido === "Ganimedes" && senhaInserida === "gaynimedes++") ||
+     (loginInserido === "Leo" && senhaInserida === "leovaldezreidelas123")) {
 
  db.ref("usuarios/" + loginInserido).get().then(snap => {
   if (!snap.exists()) {
@@ -28,5 +35,6 @@ botao.onclick = () => {
 }
 
 };
+
 
 
